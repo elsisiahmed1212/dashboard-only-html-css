@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    background-color: rgba(212, 212, 212, 0.828);
+}
+.saidbar{
+    width: 200px;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+}
+.logo i{
+    color: blue;
+}
+
+.saidbar ul li{
+    list-style: none;
+}
+.saidbar ul li a{
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    margin-left: -10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    align-items: center;
+    color:white;
+    position: relative;
+}
+.saidbar ul li a:hover::before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 40px;
+    background-color:white;
+    left: -10px;
+}
+.saidbar ul li a:hover{
+    width: 100%;
+    background-color: rgba(235, 255, 255, 0.309);
+}
+.maine{
+    width: 100%;
+}
+.maine .navbar{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 3px blue solid;
+}
+.maine .navbar .search-form .search-input{
+    width: 250px;
+    height: 25px;
+    margin: 30px;
+}
+.maine .navbar ul li {
+    list-style: none;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.maine .navbar ul li img{
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+}
+.contant{
+    margin: 30px;
+}
+.data{
+    margin-bottom: 30px;
+}
+.contant .data h1{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.contant .data .cards{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.contant .data .cards .card{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-left: 15px;
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.contant .data .cards .card i{
+    font-size: 40px;
+    color: blue;
+}
+.contant .data .cards .card .text .numper{
+    font-size: 24px;
+}
+.tabols table{
+    width: 100%;
+    border-spacing: 0px;
+}
+.tabols table th{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: left;
+}
+.tabols table td {
+    padding: 10px;
+    border-bottom: 1px rgb(0, 0, 0) solid;
+}
+.tabols table td .t-info{
+    width: 80px;
+    display: flex;
+    font-size: 13px;
+    gap: 10px;
+    align-items: center;
+}
+.tabols table td .t-info img{
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+}
+.tabols table td .titel .des{
+    font-size: 13px;
+}
+.tabols table .status{
+    width: 50px;
+    padding: 3px;
+    background-color: rgba(0, 255, 85, 0.587);
+    align-items: center;
+    border-radius: 40px;
+    text-align: center;
+}
+
